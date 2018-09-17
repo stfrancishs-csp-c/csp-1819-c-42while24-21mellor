@@ -5,18 +5,18 @@ int main(void)
     int k;
 
     k=0;
-    while (k=5)
+    while (k<5)
     {
-        k++
-        sum-30=k
+        sum+=k;
+        k++;
+        printf("%d\n",k);
     }
 
-    printf("%d\n",sum);
+    printf("sum-%d\n",sum);
 
-    for(k=6;k>0;k=-1) {
-        k=k+4;
-        printf("%d\n",k)
+    for(k=10;k>0;k--) {
+        printf("%2d\n",k);
     }
-
+        printf("BLASTOFF!!\n");
     }
 
